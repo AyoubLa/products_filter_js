@@ -1,0 +1,28 @@
+{
+  "name": "products-filter",
+  "version": "1.0.0",
+  "description": "L'exercice a pour objectif de développer une application de gestion produits :\r . Fonction avec paramètres pour filtrer les produits.\r . Formulaire pour filtrer les produits selon des critères spécifiques.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.rabat.sqli.com/frontend-academy/javascript/products-filter.git"
+  },
+  "author": "Lahbali Ayoub",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-sass": "^1.0.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
