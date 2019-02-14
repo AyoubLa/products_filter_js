@@ -4,49 +4,54 @@
         <title>Gestion de produits</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/style/style.css">
     </head>
-    <body>
-    	<header class="">
-    		<main class="">
-    			<h1 class=""><a href="#">GestProduct</a></h1>
+    <body class="bg-section-color">
+    	<header class="text-center padding-bottom-h1">
+    		<main class="container">
+    			<h1 class="header-color"><a href="#">GestProducts</a></h1>
     		</main>
     	</header>
-    	<aside class="">
-    		<main class="">
-    			<div class="">
+    	<aside class="container margin-bottom-element-section">
+    		<main class="dist-left-1 dist-right-1">
+    			<div class="margin-bottom-element-section">
     				<h2>Filtrer Par :</h2>
     			</div>
     			<div class="">
     				<form class="">
     					<div class="">
     						<label class="">Nom du produit</label>
-    						<input type="text" class="" id="nom" name="nom">
+    						<input type="text" class="col-12 form-input" id="title" name="title">
     					</div>
     					<div class="">
     						<label class="">Prix maximum</label>
-    						<input type="number" class="" id="prixMax" name="prixMax">
+    						<input type="number" class="col-12 form-input" id="price" name="price">
     					</div>
-    					<div class="">
-    						<label>Ordre croissant</label><input type="checkbox" id="asc" name="asc">
-    						<label>Ordre décroissant</label><input type="checkbox" id="desc" name="desc">
+    					<div class="col-12 black form-input">
+    						<label>Ordre croissant</label><input type="radio" value="asc" name="ordre">
+    						<label>Ordre décroissant</label><input type="radio" value="desc" name="ordre">
     					</div>
     				</form>
     			</div>
     		</main>
     	</aside>
-    	<section class="">
+    	<section class="container">
     		<main class="">
-    			<div class="">
-    				<div class=""><h3>Libellé</h3></div>
-    				<div class=""><h3>Prix</h3></div>
-    			</div>
-    			<div class="" id="produits">
-    				
-    			</div>
-    			<div class="">
-    				
-    			</div>
+                <div id="resp-table">
+                    <div id="resp-table-caption">
+                        Résultat :
+                    </div>
+                    <div id="resp-table-header">
+                        <div class="table-header-cell"><h3>Libellé</h3></div>
+                        <div class="table-header-cell"><h3>Prix</h3></div>
+                    </div>
+                    <div class="" id="produits">
+                        
+                    </div>
+                    <div class="">
+                        
+                    </div>
+                </div>
+    			
     		</main>
     	</section>
         <script src="./dist/polyfill.bundle.js"></script>

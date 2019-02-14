@@ -1,0 +1,57 @@
+/*--------------section-------------------*/
+@media screen and (max-width: 1816px){
+  .padding-section-item{
+	  padding: 45px;
+	}
+}
+@media screen and (max-width: 1366px) {
+  .padding-section-item{
+	  padding: 30px;
+	}
+}
+
+@media screen and (max-width: 916px) {
+  .float-right-box, .float-left-box{
+	  float:none;
+	  width: 80%;
+	}
+}
+/*---------------------------------------*/
+/*------------header---------------------*/
+@media screen and (max-width: 1087px) {
+  .header-menu{
+  	padding-left: $dist-3 !important;
+  }
+}
+@media screen and (max-width: 793px) {
+  .header-menu{
+  	padding-left: $dist-1 !important;
+  }
+}
+@media screen and (max-width: 675px) {
+  .float-left-box-header{
+  	float: none;
+  }
+}
+/*----------------slide-----------------------*/
+@media screen and (max-width: 897px) {
+  .slide{
+  	.hidden{
+  		display: none;
+ 
+  	}
+  	.dist-top-1{
+  		padding-top: 4% !important;
+  	} 
+  }
+}
+/*---------------------------------------*/
+@media screen and (max-width: 675px) { 
+  #form-subscription{
+  		padding-left: $dist-2 !important;
+  		padding-top: 2%;
+	}
+}
+/*---------------------------------------*/
+
+

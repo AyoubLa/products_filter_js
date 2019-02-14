@@ -1,0 +1,84 @@
+.element-header{
+	@include white-box;
+}
+
+.header-menu{
+	@include header-menu;
+	.header-menu-link{
+		@include header-menu-link;
+		color: $white-color;
+	}
+	.header-menu-item{
+		@include header-menu-item;
+	}
+}
+
+.header-section{
+	@include header-menu-item;
+}
+
+.element-footer{
+	@include white-box;
+	text-align: center;
+	clear: both;
+}
+
+
+.btn, .form-input {
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+.btn{
+   background-color: $base-color;
+   text-align: center;
+   font-size: 14px;
+   padding: 15px 32px;
+}
+.form-input {
+  padding: 12px 0px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid $base-color;
+}
+
+.element-section{
+	background-color: $article-color;
+    border: 1px solid $border-color;
+    margin-bottom: 4px;
+}
+#resp-table {
+	width: 100%;
+	display: table;
+}
+#resp-table-caption{
+	display: table-caption;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+#resp-table-header{
+	display: table-header-group;
+	background-color: gray;
+	font-weight: bold;
+	font-size: 25px;
+}
+.table-header-cell{
+	display: table-cell;
+	padding: 10px;
+	text-align: justify;
+	border-bottom: 1px solid black;
+}
+#produits{
+	display: table-row-group;
+}
+.table-body-cell{
+	display: table-cell;
+	padding: 2%;
+	border-bottom: 2px solid gray;
+}
+.resp-table-row{
+	display: table-row;
+}

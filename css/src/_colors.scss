@@ -1,0 +1,30 @@
+.base-color{
+	color:$base-color !important;
+}
+
+.header-color{
+	color:$header-color !important;
+}
+
+.white-color{
+	color:$white-color !important;
+}
+
+.bg-header-color{
+	background-color: $header-color !important;
+}
+
+.bg-footer-color{
+	background-color: $base-color !important;
+}
+
+.bg-section-color{
+	background-color: $section-color !important;
+}
+
+.border-header-color{
+	border-bottom: 4px solid $base-color !important;
+}
+.black{
+	color: black !important;
+}

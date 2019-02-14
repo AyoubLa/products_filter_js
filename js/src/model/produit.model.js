@@ -4,11 +4,13 @@ class Produit{
 		this.title = title;
 		this.price = price;
 	}
-	commencePar(chaine){
-		return this.title.startsWith(chaine);
+	contient(chaine){
+
+		return this.title.toUpperCase().includes(chaine.toUpperCase());
 	}
 	plusPetitQue(price){
-		return (this.price <= price);
+
+		return (this.price <= ((price === "")? Infinity : price));
 	}
 }
 
